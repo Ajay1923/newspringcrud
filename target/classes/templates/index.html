@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <script>
         function confirmDeletion(event, courseName) {
-            event.preventDefault(); // Prevent the link from being followed immediately
+            event.preventDefault(); 
             if (confirm('Are you sure you want to delete the details: ' + courseName + '?')) {
-                window.location.href = event.target.closest('a').href; // If confirmed, follow the link
+                window.location.href = event.target.closest('a').href; 
             }
         }
     </script>
